@@ -1,0 +1,376 @@
+ul,ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Light.ttf);
+  }
+  body{
+    font-family: poppins; 
+  }
+.head{
+    height: 92px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+}
+.head .head-img img{
+    display: inline-block;
+    margin: 29px 30px 20px 22px;
+}
+.head .head-nav{
+    height: 92px;
+    /* position: relative; */
+}
+.head .head-nav ul{
+    float: right;
+    width: 69%;
+    height: 100%;
+}
+.head .head-nav ul>li{
+    display: inline-block;
+    float: left;
+    width: 16.5%;
+    height: 100%;
+    text-align: center;
+    line-height: 92px;
+    transition: 0.4s;
+}
+
+.head .head-nav ul>li a{
+    color: #000;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.head .head-nav ul > li:hover {
+    background: rgba(0,0,0,0.5);
+ }
+ .head .head-nav ul > li:hover a{
+    color: #fff;
+ }
+ 
+.head .head-nav ul > li:active {
+   color: #fff;
+   background: rgba(0,0,0,0.3);
+}
+/* .head .head-nav ul>li a.ls{
+    font-size: 16px;
+} */
+/* ------------------------------------------white--------------------------------------- */
+.white{
+    position: relative;
+    background: url(../images/img-home.jpg);
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+}
+.white .white-info{
+    color: #fff;
+    margin: 90px 0 0;
+}
+.white .white-info h2{
+    margin: 0px 0 17px;
+    font-size: 38px;
+    letter-spacing: 1px;
+    font-family: poppins;
+}
+.white .white-info p{
+    line-height: 1.7;
+    font-size: 16px;
+    font-family: poppins;
+}
+.white .white-info a{
+    width: 120px;
+    height: 46px;
+    display: inline-block;
+    background: #4b0bff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 46px;
+    color: #fff;
+    margin: 40px 0 0;
+}
+/* ------------------------------------mums-------------------------------------------------- */
+.mums{
+    position: relative;
+    text-align: center;
+    padding: 98px 0;
+}
+.mums .mums-hd h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 0 22px;
+}
+.mums .mums-hd p{
+    font-size: 15px;
+    line-height: 1.7;
+}
+.mums .mums-three{
+    padding: 15px 10px;
+}
+.mums .mums-three i{
+    font-size: 59px;
+    display: block;
+    margin: 0 0 22px;
+}
+.mums .mums-three h3{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 23px;
+    margin: 0 0 20px;
+}
+.mums .mums-three p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.mums .mums-cont{
+    margin-top: 55px;
+}
+/* -----------------------------------viva------------------------------------------------- */
+.viva{
+    background-color: #0c0633;
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+}
+.viva h2{
+    margin: 20px 0;
+}
+.viva p{
+    font-size: 15px;
+    line-height: 1.7;
+}
+.viva a{
+    width: 120px;
+    height: 46px;
+    display: inline-block;
+    background: #4b0bff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 46px;
+    color: #fff;
+    margin: 23px  0 0;
+}
+/* -------------------------------------aug----------------------------------------------- */
+.aug{
+    position: relative;
+    padding: 65px 0;
+}
+.aug .aug-img img{
+    max-width: 100%;
+}
+.aug .aug-info {
+    margin: 20px 0 0 0;
+}
+.aug .aug-info .first-el i{
+    font-size: 26px;
+}
+.aug .aug-info .first-el .first-o{
+    margin-bottom: 6px;
+}
+.aug .aug-info .first-el h3{
+    display: inline;
+    margin: 0px 0 0 20px;
+    font-weight: 600;
+}
+.aug .second-el{
+    margin: 48px 0 0 0;
+}
+/* ---------------------------------footer---------------------------------------------- */
+.footer{
+    position: relative;
+    padding: 30px 0;
+}
+.footer h4{
+    font-size: 23px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.footer ul{
+    height: 50px;
+}
+.footer ul li{
+    display: inline-block;
+    float: left;
+    margin: 0 5px 0;
+}
+.footer a{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.footer i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    color: #000;
+}
+.footer .foot a{
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    width: 131px;
+}
+.footer .form input{
+    height: 50px;
+    width: 83%;
+    border: 1px solid #eee;
+}
+.footer .form button{
+    width: 43px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 46px;
+    color: #fff;
+    margin: 3px 0 0 -9px;
+    outline: none;
+    border: 1px solid #4b0bff;
+    background: #4b0bff;
+}
+/* ---------------------------------start media query------------------------------------ */
+/*------------------------------------ start xs size screen---------------------------------- */
+@media (max-width:576px){
+    .head .head-nav .togg-sm {
+        top: -78px!important;
+    }
+    .head .head-nav ul {
+        top: 0!important;
+    }
+}
+@media(max-width:767px){
+    .head .head-nav ul{
+        position: absolute;
+        width: 100%;
+        float: none;
+        display: none;
+        left: 0;
+        top: 92px!;
+        height: 283px;
+        border-top: 1px solid #ddd;
+    }
+    .head .head-nav ul li{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 0 0 0 30px;
+        height: 45px;
+        background-color: #fff;
+        line-height: 45px;
+    }
+    .head .head-nav .togg-sm{
+        width: 40px;
+        height: 40px;
+        border: 1px solid #ddd;
+        float: right;
+        margin: 24px 0 0;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 20px;
+    }
+    .head .head-nav ul {
+        top: 92px;
+    }
+    .head .head-nav .togg-sm span{
+        display: block;
+        height: 3px;
+        background: #333;
+        margin: 7px 0 7px 5px;
+        width: 70%;
+    }
+    /* ----------------------------------start aug-------------------------------------------- */
+    .aug .second-el img{
+        margin: 0 auto!important;
+        display: block;
+    }
+    /* ----------------------------------footer----------------------------------------------- */
+    .footer .footer-1{
+        margin: 0 0 10px;
+    }
+    .footer .footer-1 h4{
+        font-size: 18px;
+    }
+    .footer .footer-1 p{
+        font-size: 14px;
+    }
+    .footer .footer-1 .foot{
+        font-size: 14px;
+    }  
+}
+/* -------------------------------medium-size---------------------------------------------- */
+@media(min-width:768px){
+    /* ---------------------------head-------------------------------------------- */
+    .head .head-nav .togg-sm {
+       top: 0!important;
+    }
+    .head .head-nav ul {
+        width: 78%;
+        display: block !important;
+    }
+
+    .head .head-nav ul>li a {
+        font-size: 11px;
+    }
+    /* -------------------------------------white------------------------- */
+    .white {
+        padding: 77px 0;
+    }
+    /* ---------------------------------------aug-------------------------- */
+    .aug .second-el img{
+        margin: 0 auto!important;
+        display: block;
+    }
+    .aug .second-el {
+        margin: 65px 0 0 0;
+    }
+      /* ----------------------------------footer----------------------------------------------- */
+      .footer .footer-1{
+        margin: 0 0 10px;
+    }
+    .footer .footer-1 h4{
+        font-size: 18px;
+    }
+    .footer .footer-1 p{
+        font-size: 14px;
+    }
+    .footer .footer-1 .foot{
+        font-size: 14px;
+    }  
+}
+/* ------------------------------------------large-size--------------------------------- */
+@media(min-width:992px){
+    .head .head-nav ul {
+        width: 85%;
+    }
+    .head .head-nav ul>li a {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
